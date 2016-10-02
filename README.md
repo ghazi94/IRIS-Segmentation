@@ -7,7 +7,9 @@
 **C Based Human Eye IRIS Segmentation Algorithm based on Daugman's Itegro-Differential Operator
 [![](https://raw.githubusercontent.com/ghazi94/IRIS-Segmentation/master/sample_output.jpg)](https://github.com/ghazi94/IRIS-Segmentation)
 
-** How to use/run the codes **
+<br>
+
+## How to use/run the codes
 Image is being processed directly via MATLAB and a CSV (Matrix) of the BITMAP is generated.
 The matlab file "Equivalent_MATLAB_Code/MainApplication.m" automatically creates a CSV file for the image put in this folder as "image1.jpg". So just put any image from CASIA database into this folder and rename it as "image1.jpg" to be processed by the MATLAB code.
 

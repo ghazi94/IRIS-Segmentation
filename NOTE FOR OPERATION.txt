@@ -1,0 +1,8 @@
+I am processing the image directly. So all the values are from 0 to 255.
+(Even though the program can run fine on image processed values of 0 to 1, just change the threshold value in the C code (line 500, variable pixintcol) to 0.5)
+
+The matlab file "threshalone.m" automatically creates a CSV file for the image put in this folder as "image1.jpg". So just put any image from CASIA database into this folder and rename it as "image1.jpg" to be processed by the MATLAB code.
+
+Verify the ROWS and COLS in the CSV file ("1.csv") and make sure that the ROWS and COLS match those of the CSV file. For the image1 included in the folder the dimensions are 480*640 which is resized to 240*320 and stored n the CSV file. The ROWS and COLS has already been set to these values.
+
+Wait for the program to execute and verify the result from the matlab result. It comes almost or exactly same. The result shows the iris and pupil co-ordinates and radius of both. Matlab even circles the output as white circles on the image.
